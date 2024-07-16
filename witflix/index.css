@@ -1,3 +1,87 @@
+
 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+header nav a {
+    margin: .3rem;
+}
+.logo1 {
+    width: 15rem;
+}
+
+.user-panel-control {
+display: flex;
+align-items: center;
+}
+
+form.example input[type=text] {
+    padding: 9px;
+    font-size: 8px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 8px;
+    background: black;
+    color: white;
+    font-size: 11px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: black;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.user-panel-control img {
+    width: 5rem;
+    border-radius: 100%;
+    margin: .5rem;
+}
+
+main {
+    width:98%;
+    border: 1px solid brown;
+    border-radius: 1rem;
+    aspect-ratio: 2/1;
+    margin: auto;
+    padding:5px;
+    background-image: url(https://cdn-www.konbini.com/files/2019/10/adventuretime-feat-min.jpg?width=3840&quality=75&format=webp);
+}
+
+main h1 {
+    color: red;
+}
+.user-rating i {
     color:red;
+    font-size: .9rem;
+}
+.user-rating span {
+    margin right:.3rem;
+}
+.color-gray {
+color:gray
+}
+.yas-siniri {
+    border:1px solid black;
+    border-radius: .3rem;
+    padding: .2rem;
+    margin: 2.rem;
 }
