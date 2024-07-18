@@ -8,7 +8,7 @@ header nav a {
     margin: .3rem;
 }
 .logo1 {
-    width: 15rem;
+    width: 12rem;
 }
 
 .user-panel-control {
@@ -69,7 +69,7 @@ h1 {
     font-size: 1rem;
 }
 .user-rating span {
-    margin right:.3rem;
+    margin-right:.3rem;
 }
 .color-gray {
     color:gray
@@ -160,7 +160,7 @@ h1 {
     background-size:cover;
 }
 .movie-card5 {
-    background-image: url(https://ti-content-global.cdn.turner.com/PROD-APAC/C_REGSHO_01002395_MEI_TUR/C_REGSHO_01002395_MEI_TUR_VIDSCREENSHOT.jpg);
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2021/04/rigby-Cropped.jpg);
     background-size:cover;
 }
 .movie-card6 {
@@ -169,7 +169,7 @@ h1 {
 }
 footer {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
 }
 footer nav {
@@ -186,4 +186,23 @@ footer nav {
 .social-media div, .app-store div  {
     display: flex;
     gap:1rem;
+}
+@media screen and (max-width:680px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav {
+        order:2;
+        width:100%;
+        text-align: center;
+        margin:1rem;
+    }
+    footer {
+        flex-direction: column-reverse;
+    }
+    footer div:first-child {
+        width: 100%;
+    }
 }
